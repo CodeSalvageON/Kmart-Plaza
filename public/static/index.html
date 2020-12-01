@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kmart Plaza</title>
+    
+    <link href="https://media.discordapp.net/attachments/772064957793435678/782600532615102484/971px-Kmart_logo_1990s.png?width=845&height=671" rel="icon"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina&display=swap" rel="stylesheet">
+
+    <link href="https://codesalvageon.github.io/magichat/styles/index.css" rel="stylesheet"/>
+    <link href="/styles/background.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="title-screen" class="texturina move">
+      <h3 class="center">Click anywhere on the Kmart to enter.</h3>
+    </div>
+
+    <div id="shop-enterance" class="texturina move">
+      <div class="white rounded" id="slutty-nav">
+        <h3>NAVIGATION</h3> 
+        <button class="rounded powderblue texturina no-border zoom" id="create-aisle">Create an aisle</button>
+        <br/>
+        <button class="rounded powderblue texturina no-border zoom" id="browse-aisles">Browse aisles</button>
+        <br/>
+        <button class="rounded powderblue texturina no-border zoom" id="feedback">Feedback</button>
+      </div>
+    </div>
+
+    <div id="aisle-create" class="texturina move">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div class="center">
+        <button class="text-input powderblue texturina zoom" id="return-to-store-ent-from-ca">Return to store enterance</button>
+        <form id="aisle-creation-form">
+          <h3>Aisle Name: <input type="text" id="aisle_name" class="text-input texturina" maxlength="25" required/></h3>
+          <button class="text-input powderblue texturina zoom">Create Aisle</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="cash-register" class="texturina move">
+      <div class="white rounded" id="feedback-notice"> 
+        <h3>NOTICE:</h3>
+        <h3>For all comments, questions, and concerns, please email nigerian.anal.sex@gmail.com</h3>
+        <br/>
+        <h3><i>If you would like to speak directly to the developer, please join this <a href="https://discord.gg/tGnANch8uT" target="_blank">Discord Server</a> and ping BlackytheSlime#7188</i></h3>
+        <button class="rounded powderblue texturina no-border zoom" id="return-to-store-ent-from-cr">Return to store enterance</button>
+      </div>
+    </div>
+
+    <div class="texturina">
+      <h3 class="center" id="mobile-notice">The Kmart Plaza is not supported on mobile. Please switch to a computer browser.</h3>
+      <img src="https://media.discordapp.net/attachments/759173234565316618/782740905571516447/960x0.png?width=895&height=671" id="error-page-mobile"/>
+    </div>
+
+    <audio id="kmartRadio">
+      <source src="https://ia801309.us.archive.org/11/items/KmartOctober1989/Kmart%20October%201989.mp3" type="audio/mp3" loop>
+    </audio>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/scripts/background.js"></script>
+    <script src="/scripts/mobile.js"></script>
+  </body>
+</html>

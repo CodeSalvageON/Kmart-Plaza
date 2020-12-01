@@ -1,0 +1,63 @@
+#title-screen {
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+  background-size: 3000px;
+  box-shadow: 0px 0px 40px 15px white;  
+  border: 1px solid white;
+  background-image: url("https://media.discordapp.net/attachments/759173234565316618/782644482054029322/Z5W4LEYBZ5G2JC7B4S5CMZSWNM.png?width=1194&height=671");
+}
+
+#shop-enterance {
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+  background-size: 3000px;
+  box-shadow: 0px 0px 40px 15px white;  
+  border: 1px solid white;
+  background-image: url("https://media.discordapp.net/attachments/759173234565316618/782787210592256050/sears-1024x576.png");
+}
+
+#cash-register {
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+  background-size: 3000px;
+  box-shadow: 0px 0px 40px 15px white;  
+  border: 1px solid white;
+  background-image: url("https://media.discordapp.net/attachments/759173234565316618/782798296217026570/maxresdefault.png?width=1194&height=671");
+}
+
+#aisle-create {
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+  background-size: 3000px;
+  box-shadow: 0px 0px 40px 15px white;  
+  border: 1px solid white;
+  background-image: url("https://media.discordapp.net/attachments/759173234565316618/782802248736047124/sears-is-closing-the-first-kmart-opened-and-these-rare-photos-reveal-how-far-chain-has-fallen.png");
+}
+
+#error-page-mobile {
+  border-radius: 8px;
+  box-shadow: 0px 0px 40px 15px white;  
+}
+
+#slutty-nav {
+  width: 300px;
+}
+
+#feedback-notice {
+  width: 300px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  transition: background-color ease-in-out 2s;
+}
